@@ -37,7 +37,7 @@
             <tr>
               <th class="faColumn"><span class="fa fa-github"></span></th>
               <th>
-                <a href="https://behance.net/fauzifernanda">
+                <a href="https://github.com/rizkyfernanda">
                 fauzifernanda
               </a></th>
             </tr>
