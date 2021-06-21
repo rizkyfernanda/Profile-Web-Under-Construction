@@ -1,0 +1,117 @@
+ .home {
+  background-color: #FFC04C;
+  }
+
+  @media (min-width: 768px) {
+    /* For mobile phones: */
+    .textColumn {
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+  }
+
+  p {
+    color: white;
+    text-align: justify;
+    font-size: 90%;
+    opacity: 80%;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+  }
+  
+  th {
+    color: white;
+    font-weight: normal;
+  }
+
+  th > a {
+    color: white;
+    font-weight: normal;
+  }
+
+  th > a:hover {
+    color: grey;
+  }
+  
+  .contacts {
+    line-height: 2em;
+    margin-left: 0.8em;
+    font-size: 90.9%;
+    margin-bottom: em;
+  }
+
+  .bolded {
+    font-weight: 900;
+    font-style:italic;
+    font-size: 150%;
+  }
+
+  .titleLogo {
+    padding-left: 0.8em;
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    padding-left: 0.8em;
+  }
+
+  .fa {
+    color: white;
+    padding-right: 0.5em;
+  }
+
+  .faColumn {
+    text-align: center;
+  }
+
+  .fa-wrench {
+    color: inherit;
+  }
+  
+  .underConstruction {
+    font-weight: light;
+    color: #fda600;
+    font-size: 90.9%;
+    padding-left: 0.8em;
+  }
+
+  @-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(-360deg);
+      -moz-transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 25s linear infinite;
+    -moz-animation: rotating 25s linear infinite;
+    -ms-animation: rotating 25s linear infinite;
+    -o-animation: rotating 25s linear infinite;
+    animation: rotating 25s linear infinite;
+  }
