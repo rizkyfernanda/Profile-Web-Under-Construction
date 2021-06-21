@@ -1,24 +1,5 @@
-# profile
+# Profile Web (under construction)
 
-## Project setup
-```
-npm install
-```
+This is Fauzi Fernanda's temporary website while he's still building the website.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![screen1](https://user-images.githubusercontent.com/29392161/122805367-37cd0100-d2f3-11eb-8cd0-f4bc14dee584.png)
