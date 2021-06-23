@@ -14,14 +14,14 @@
     color: white;
     text-align: justify;
     font-size: 90%;
-    opacity: 80%;
+    font-weight: lighter;
     padding-left: 0.8em;
     padding-right: 0.8em;
   }
   
   th {
     color: white;
-    font-weight: normal;
+    font-weight: lighter;
   }
 
   th > a {
