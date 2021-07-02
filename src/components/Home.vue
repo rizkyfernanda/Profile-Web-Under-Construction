@@ -59,7 +59,7 @@
 
             <tr>
             <th class="faColumn"><span class="fa fa-twitter"></span>
-            <th><a href="https://twitter.com/mrizfer">
+            <th><a href="https://twitter.com/fauzisstuff">
             @fauzisstuff
             </a></th>
             </tr>
