@@ -1,25 +1,18 @@
 <template>
-  <div id="app">
-    <Home/>
-  </div>
+  <HomePage msg="Welcome to my profile"/>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import HomePage from './components/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    HomePage
   }
 }
 </script>
 
-<style scoped>
-#app {
-  min-height: 100vh;
-  background-color: #FFC04C;
-  font-family: lato;
-  font-size: 110%;
-}
+<style>
+
 </style>

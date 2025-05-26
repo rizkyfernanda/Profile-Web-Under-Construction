@@ -1,10 +1,13 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
-Vue.config.productionTip = false
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import 'animate.css'
+import '/src/assets/profile.css'
 
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+import $ from 'jquery'
+window.$ = window.jQuery = $
+
+createApp(App).mount('#app')
