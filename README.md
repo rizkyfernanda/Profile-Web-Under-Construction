@@ -1,4 +1,6 @@
-# fauzisstuff-profile
+# Web Profile Under Construction 
+
+See https://fauzisstuff.web.app/ for the deployed app via firebase
 
 ## Project setup
 ```
